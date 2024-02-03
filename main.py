@@ -23,9 +23,9 @@ orders_collection = db["orders"]
 #Pushing sample documents
 @app.post("/products")
 async def push_products():
-    result = await products_collection.insert_many(#[{'name': 'Phone','price': 10000,'quantity': 1},{'name': 'Shirt','price': 200,'quantity': 4},{'name': 'Jeans','price': 400,'quantity': 3},] \
+    result = await products_collection.insert_many([{'name': 'home','price': 1000,'quantity': 2},{'name': 'Shit','price': 1200,'quantity': 4},{'name': 'Jeans','price': 400,'quantity': 3},] \
         )
-    print(len(result.inserted_ids,))
+    print(len(result.inserted_ids))
 
     return "Inserted Records"
 

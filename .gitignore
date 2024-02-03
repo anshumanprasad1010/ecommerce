@@ -2,7 +2,6 @@
 .ipynb_checkpoints
 .mypy_cache
 .vscode
-__pycache__
 .pytest_cache
 htmlcov
 dist
@@ -20,6 +19,7 @@ site_build
 venv
 docs.zip
 archive.zip
+**/__pycache__
 
 # vim temporary files
 *~

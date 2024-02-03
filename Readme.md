@@ -1,0 +1,1 @@
+[{'name': 'Phone','price': 10000,'quantity': 1  }, {'name': 'Shirt','price': 200,'quantity': 4 }, {'name': 'Jeans','price': 400,'quantity': 3  },  {    name: 'Bottles',    price: 20,    quantity: 5  },  {    name: 'Pen',    price: 20,    quantity: 50  },]
